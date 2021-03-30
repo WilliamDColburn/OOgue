@@ -1,0 +1,63 @@
+
+	   Oogue -- Object Oriented Great Underground Empire
+
+			       * * * * *
+
+
+Installation:
+You will need Python 3 to play this game.
+  http://www.python.org/
+
+If you want to try the graphical interface, you will also need wx.
+  http://www.wxwidgets.org/downloads/
+
+Running The Game: The panel.py (requires wx) script is the stand-alone
+graphical user interface to the game.  It doesn't work as well as I
+would like, but it does work.  There are no saved games yet, so you
+always start at the beginning and play until you stop playing or it
+crashes.  If you look in panel.py you will see two lines commented out
+for player2.  If you uncomment those, then you can have two adventurers
+in the same game!  This is the root of the problem with the panel, it
+uses a dialog for each player because I haven't quite figured out how to
+let the wx.App.MainLoop() drive the player interactions.
+
+This game was written in Python 2, and it is still unknown how
+successful the quick conversion to Python 3 has been.
+
+You can run panel.py with --debug to get a "pdb" button and see your
+current location.
+
+If you play text mode use a big terminal window, and the number of each
+action is the number to press to perform the action.  Cardinal
+abbreviations (n,s,e,w,u,d,ne,nw,se,sw) also work.
+
+Currently the most difficult objective in the game is to acquire enough
+gold to use one of the "good" prostitutes.  The cheap one can be had for
+as little as a single copper coin, and you can just find those laying
+around if you are lucky.  Actually, you could find silver and gold just
+laying around too, but the chances are so miniscule that I shouldn't
+have mentioned it.  Your best bet to earn the cash you need is to rob
+the bank.  I'd suggest that you use the bank-robbing practice area to
+practive before you try to rob the bank.  There is a lot of walking
+involved if you fail on your attempts.
+
+The Great Underground Empire is a premise of the game ZORK, one of my
+childhood favorite games.  ADVEN, on a DEC, was actually the first
+computer game I played, way back in the 1970s.  ASYLUM was also a
+popular game.  By the mid 80s I was interested in TELENGARD, ROGUE,
+LARN, Omega, HACK, Nethack, and Moria.  Back then I had to acquire Moria
+on floppy disks mailed to California with a SASE.  And C-compilers were
+hard to come by on home computers.  Actually, home computers were still
+hard to come by.  I should also give mention to Temple Of Apshai.  That
+game looked amazing, but I had a TRS-80, not an Apple ][, and none of my
+friends who had Temple Of Apshai would ever stop playing to let me play.
+I learned decades later that Temple of Apshai was also available for the
+TRS-80, but I didn't know that back then.  Long story short: OO means
+Object Oriented, so Oogue is Object Oriented Great Underground Empire.
+It's a nice coincidence that Oogue is quite close to Rogue.
+
+Version x1 appears to date back to May of 2007.  At the time, it was
+called x, not oogue, and was entirely web based.  I had learned Python
+in December of 2006 when I started a new job, and this was an outgrowth
+of that because writing games in Python seemed much easier than what I
+had been doing, which was writing them in C.
